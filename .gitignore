@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.DS_Store
+*.local
+.env
+.env.*
+*.pem
+*.key
+.vscode/
+.idea/
+.codex/
+.agents/
+# Internal documentation and local history backups never leave this checkout.
+*.md
+!README.md
+docs/

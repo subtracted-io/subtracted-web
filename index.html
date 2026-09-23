@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Subtracted is an independent software studio creating digital products." />
+    <meta name="theme-color" content="#121212" />
+    <title>Subtracted — Independent Software Studio</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="canonical" href="https://subtracted.io/" />
+    <link rel="preload" href="/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/images/pixel-grass.jpg" as="image" />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body class="bg-surface font-sans text-foreground antialiased">
+    <div class="landscape" aria-hidden="true"></div>
+    <div class="page-shell mx-auto grid min-h-svh w-full max-w-page px-gutter">
+      <header class="pt-12">
+        <a class="logo-link" href="/" aria-label="Subtracted — home">
+          <span class="logo-mark h-2 w-8" aria-hidden="true"></span>
+        </a>
+      </header>
+      <main class="hero-layout text-center">
+        <div class="hero-copy flex flex-col items-center">
+          <h1 class="copy-reveal text-headline font-normal tracking-headline">Simple, thoughtful software.</h1>
+          <p class="copy-reveal copy-reveal--description mt-4 text-base leading-6 tracking-copy text-muted">
+            Subtracted is an independent software studio creating digital products
+          </p>
+          <a class="contact-button mt-6 inline-flex min-h-12 items-center justify-center rounded-full px-6 py-3 text-action font-medium leading-6 text-surface" href="mailto:hello@subtracted.io" aria-label="Email us at hello@subtracted.io">Email us</a>
+        </div>
+        <div class="companion-home">
+          <span class="companion-slot">
+            <button class="studio-companion" type="button" aria-label="Pet our cockapoo studio companion" aria-describedby="companion-help">
+              <img class="companion-body" src="/images/studio-companion.png" width="64" height="64" alt="" />
+              <img class="companion-tail" src="/images/studio-companion.png" width="64" height="64" alt="" aria-hidden="true" />
+            </button>
+          </span>
+          <span id="companion-help" class="sr-only">Drag to move Frankie. With keyboard focus, use arrow keys to move him, Escape to return him home, and Enter or Space to pet him.</span>
+        </div>
+      </main>
+      <footer class="flex items-end justify-center pb-12 text-footer leading-4 tracking-footer text-quiet sm:justify-start">
+        <p>© 2026 Subtracted LLC.</p>
+      </footer>
+    </div>
+    <script type="module" src="/src/companion.js"></script>
+  </body>
+</html>
