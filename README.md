@@ -20,3 +20,7 @@ npm run preview
 ```
 
 Production files are generated in `dist/`. No environment variables or application secrets are required.
+
+## Deployment
+
+GitHub Actions tests, builds, and deploys pushes to `main` to https://subtracted-io.github.io/subtracted-web/. Pull requests run checks without publishing. The workflow builds with Vite base `/subtracted-web/`; local development uses `/`.
